@@ -20,7 +20,7 @@ h1 {
     width: 90%;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 150px;
 
@@ -44,4 +44,38 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 30px grey;
+    width: 50%;
+    margin: 25px 25px;
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-left: 50px;
+
+
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#stack {
+    border-left: 7px solid orangered;
+
+}
+
+#web {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
